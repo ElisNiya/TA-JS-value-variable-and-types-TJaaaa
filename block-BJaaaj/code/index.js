@@ -8,6 +8,8 @@ alert(lastName);
 
 firstName="John";
 lastName="Snow";
+
+
 // Do the following:
 
 // Alert the value of the firstName.
@@ -35,6 +37,10 @@ var wiseMan = "Tyrion Lannister";
 // Reassign the value of `oddNumber` to 61
 
 // Mathematical Operation
+
+let userName="Lysa Arryn";
+let oddNumber=57;
+oddNumber=61;
 
 let amount = 4280;
 
