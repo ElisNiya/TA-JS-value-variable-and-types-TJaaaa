@@ -7,6 +7,12 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+if (nr==nr+1){
+  console.log("number is even");
+} else {
+  console.log("number is odd");
+}
+
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
 // 3. Convert the above code using`?` terniary operator
