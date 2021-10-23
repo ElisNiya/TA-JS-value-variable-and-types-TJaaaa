@@ -7,7 +7,9 @@
   - `if` the number is odd print the message "number is odd"
 */
 
-if (nr==nr+1){
+let number = Number(prompt("Enter a number"));
+
+if (nr%2==0){
   console.log("number is even");
 } else {
   console.log("number is odd");
@@ -15,8 +17,17 @@ if (nr==nr+1){
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
-// 3. Convert the above code using`?` terniary operator
+let numA = prompt("Enter numA");
+let numB = prompt("Enter numB");
 
+if(numA > numB){
+  alert(`${numA} is greater`);
+}else{
+  alert(`${numB} is greater`);
+
+// 3. Convert the above code using`?` terniary operator
+numA > numB ? alert{`${numA} is greater`) : alert(`${numB} is greater`);
+  
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
 
@@ -25,7 +36,15 @@ if (nr==nr+1){
   - `else` print the message " All men must die"
 */
 
+if(houseName ==="start"){
+  alert("Winter");
+}else{
+  alert("smth");
+}
+
 // 5. Convert the above code using`?` terniary operator
+
+houseName ==="start" ?   alert("Winter"); :  alert("smth");
 
 // Switch
 
