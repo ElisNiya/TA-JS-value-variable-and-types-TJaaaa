@@ -3,6 +3,11 @@
 let firstName = "Arya";
 let lastName = "Stark";
 
+alert(firstName);
+alert(lastName);
+
+firstName="John";
+lastName="Snow";
 // Do the following:
 
 // Alert the value of the firstName.
