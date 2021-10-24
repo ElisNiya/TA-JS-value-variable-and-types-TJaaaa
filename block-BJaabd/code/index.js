@@ -11,6 +11,16 @@ Write a program that asks the user his/her age and check for the following condi
 👇
 */
 
+let age = prompt("How old are you");
+if (age < 4) {
+console.log("Hey Kiddo");
+}else if( age >= 4 && age <=11) {
+console.log("Ur too young!);
+}else if(age >= 12 && age < 55){
+console.log("ok")
+}else{
+ console.log("old");
+}
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
